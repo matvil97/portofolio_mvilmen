@@ -67,7 +67,7 @@ export function Hero() {
         <div className="relative h-[280px] w-[280px] rounded-[2rem] border border-white/10 bg-white/5 p-2 shadow-2xl backdrop-blur-xl md:h-[380px] md:w-[380px]">
           <div className="relative h-full w-full overflow-hidden rounded-[1.5rem]">
             <Image
-              src="app/public/IMG_4945.png"
+              src="./app/public/img_mv.png"
               alt="Photo de Matthieu Vilmen"
               fill
               className="object-cover"
