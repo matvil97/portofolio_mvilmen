@@ -1,26 +1,29 @@
 export const projects = [
   {
-    title: "YEIRN Website",
+    title: "Ma Place Idéale",
     description:
-      "Site vitrine moderne conçu pour mettre en valeur une identité visuelle forte avec une interface fluide, minimaliste et responsive.",
-    stack: ["Next.js", "Tailwind CSS", "Framer Motion"],
-    demo: "https://yeirn-website.vercel.app/",
-    github: "https://github.com/matvil97/yeirn-website",
+      "Quiz interactif de 20 questions pour découvrir la ville française qui correspond le mieux à son mode de vie et ses priorités.",
+    stack: ["Next.js", "Tailwind CSS", "TypeScript"],
+    demo: "https://maplaceideale.com",
+    github: "",
+    image: "/projects/maplaceideale.png",
   },
   {
-    title: "Nomenvi Landing Page",
+    title: "My Style",
     description:
-      "Landing page optimisée pour la conversion avec une hiérarchie visuelle claire, des sections impactantes et des animations subtiles.",
+      "Site vitrine élégant dédié à l'univers de la mode et du style, avec une mise en page soignée et une identité visuelle forte.",
     stack: ["Next.js", "Tailwind CSS"],
-    demo: "https://nomenvi-landing-page.vercel.app/",
-    github: "https://github.com/matvil97/nomenvi-landing-page",
+    demo: "https://my-style-website.vercel.app/",
+    github: "",
+    image: "/projects/mystyle.png",
   },
   {
-    title: "Diaprev",
+    title: "Nomenvi",
     description:
-      "Application web orientée produit avec une interface structurée, une navigation claire et une attention particulière portée à l’expérience utilisateur.",
-    stack: ["React", "TypeScript", "Tailwind CSS"],
-    demo: "https://diaprev-3rky.vercel.app/",
-    github: "https://github.com/matvil97/diaprev",
+      "Site professionnel moderne conçu pour mettre en avant la marque Nomenvi avec une navigation claire et une identité visuelle cohérente.",
+    stack: ["Next.js", "Tailwind CSS", "Framer Motion"],
+    demo: "https://nomenvi.com/",
+    github: "",
+    image: "/projects/nomenvi.png",
   },
 ]

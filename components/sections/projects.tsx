@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { motion } from "motion/react"
 import { projects } from "@/app/data/portfolio"
 import { SectionTitle } from "@/components/ui/section-title"
@@ -30,12 +31,16 @@ export function Projects() {
               className="group"
             >
               <Card className="h-full overflow-hidden rounded-3xl border-white/10 bg-white/5 transition-all duration-300 hover:border-white/20 hover:bg-white/10">
-                
-                {/* IMAGE / PREVIEW */}
-                <div className="relative h-[180px] w-full overflow-hidden">
-                  <div className="absolute inset-0 bg-gradient-to-br from-violet-500/20 to-cyan-400/10 group-hover:scale-105 transition-transform duration-500" />
-                  
-                  <div className="absolute inset-0 flex items-center justify-center text-sm text-zinc-400 opacity-0 group-hover:opacity-100 transition">
+
+                {/* PREVIEW */}
+                <div className="relative h-[200px] w-full overflow-hidden">
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    fill
+                    className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center text-sm text-white font-medium tracking-wide">
                     Voir le projet →
                   </div>
                 </div>

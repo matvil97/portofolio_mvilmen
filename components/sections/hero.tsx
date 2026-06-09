@@ -64,7 +64,7 @@ export function Hero() {
         transition={{ duration: 0.7, delay: 0.2 }}
         className="relative flex justify-center md:justify-end"
       >
-        <div className="relative h-[280px] w-[280px] rounded-[2rem] border border-white/10 bg-white/5 p-2 shadow-2xl backdrop-blur-xl md:h-[380px] md:w-[380px]">
+        <div className="relative h-[360px] w-[270px] rounded-[2rem] border border-white/10 bg-white/5 p-2 shadow-2xl backdrop-blur-xl md:h-[520px] md:w-[380px]">
           <div className="relative h-full w-full overflow-hidden rounded-[1.5rem]">
             <Image
               src="/img_mv.png"
