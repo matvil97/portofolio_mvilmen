@@ -30,10 +30,10 @@ export function Projects() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="group"
             >
-              <Card className="h-full overflow-hidden rounded-3xl border-white/10 bg-white/5 transition-all duration-300 hover:border-white/20 hover:bg-white/10">
+              <Card className="h-full overflow-hidden rounded-3xl border-white/10 bg-white/5 pt-0 transition-all duration-300 hover:border-white/20 hover:bg-white/10">
 
                 {/* PREVIEW */}
-                <div className="relative h-[200px] w-full overflow-hidden">
+                <div className="relative h-[200px] w-full overflow-hidden rounded-t-3xl">
                   <Image
                     src={project.image}
                     alt={project.title}
